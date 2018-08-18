@@ -11,12 +11,10 @@
   <properties>
       <!-- This property will be set by the Maven Dependency plugin -->
       <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>
+	  <sonar.analysis.mode>preview</sonar.analysis.mode>
+         <sonar.issuesReport.html.enable>true</sonar.issuesReport.html.enable>
   </properties>
 
-<properties>
-         <sonar.analysis.mode>preview</sonar.analysis.mode>
-         <sonar.issuesReport.html.enable>true</sonar.issuesReport.html.enable>
-    </properties> 
 
 
   <dependencies>
