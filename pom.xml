@@ -13,6 +13,12 @@
       <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>
   </properties>
 
+<properties>
+         <sonar.analysis.mode>preview</sonar.analysis.mode>
+         <sonar.issuesReport.html.enable>true</sonar.issuesReport.html.enable>
+    </properties> 
+
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
