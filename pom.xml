@@ -15,6 +15,7 @@
          <sonar.issuesReport.html.enable>true</sonar.issuesReport.html.enable>
 	  <docker.image.prefix>336809125027.dkr.ecr.us-east-2.amazonaws.com/hello_world</docker.image.prefix>
 	  <docker.plugin.version>1.1.0</docker.plugin.version>
+	  <project.build.finalName>my-app-1.0-SNAPSHOT</project.build.finalName>
   </properties>
 
 
